@@ -1,4 +1,4 @@
-package com.example.vaibhavchellani.firebaseioextended;
+package com.example.vaibhavchellani.firebaseioextended.Models;
 
 /**
  * Created by vaibhavchellani on 5/19/17.
