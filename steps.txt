@@ -9,9 +9,9 @@ Step 1: Making UI of messaging activity,signin activity (refer codelab). Linking
 
 Step 2. connecting with firebase adding of dependencies
 
-Step 3. read messages
+Step 3. write messages
 
-step 4. write messages
+step 4. read messages
 
 
 list to be appended as work progresses
