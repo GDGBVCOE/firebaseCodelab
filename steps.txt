@@ -7,7 +7,11 @@ Every method or block of code shall be properly commented so that audience can u
 
 Step 1: Making UI of messaging activity,signin activity (refer codelab). Linking of xml and java code.
 
-Step 2. connecting with firebase adding of dependencies 
+Step 2. connecting with firebase adding of dependencies
+
+Step 3. read messages
+
+step 4. write messages
 
 
 list to be appended as work progresses
