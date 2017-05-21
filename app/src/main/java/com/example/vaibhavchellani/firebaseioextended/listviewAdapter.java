@@ -1,4 +1,4 @@
-package com.example.vaibhavchellani.firebaseioextended.Adapters;
+package com.example.vaibhavchellani.firebaseioextended;
 
 import android.app.Activity;
 import android.content.Context;
@@ -9,17 +9,14 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
-import com.example.vaibhavchellani.firebaseioextended.Models.Message;
-import com.example.vaibhavchellani.firebaseioextended.R;
-
 import java.util.List;
 
 /**
  * Created by vaibhavchellani on 5/19/17.
  */
 
-public class listViewAdapter extends ArrayAdapter<Message> {
-    public listViewAdapter(Context context, int resource, List<Message> objects) {
+public class listviewAdapter extends ArrayAdapter<Message> {
+    public listviewAdapter(Context context, int resource, List<Message> objects) {
         super(context, resource, objects);
     }
 

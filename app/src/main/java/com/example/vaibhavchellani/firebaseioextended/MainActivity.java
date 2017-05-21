@@ -1,4 +1,4 @@
-package com.example.vaibhavchellani.firebaseioextended.Activities;
+package com.example.vaibhavchellani.firebaseioextended;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -6,10 +6,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
-
-import com.example.vaibhavchellani.firebaseioextended.Adapters.listViewAdapter;
-import com.example.vaibhavchellani.firebaseioextended.Models.Message;
-import com.example.vaibhavchellani.firebaseioextended.R;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     private EditText messageEditText;
     private Button sendButton;
     private ListView messageListView;
-    private listViewAdapter mlistviewAdapter;
+    private listviewAdapter mlistviewAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         messages.add(newMessage);messages.add(newMessage);messages.add(newMessage);*/
 
 
-        mlistviewAdapter=new listViewAdapter(this,R.layout.row_layout,messages);
+        mlistviewAdapter=new listviewAdapter(this,R.layout.row_layout,messages);
         messageListView.setAdapter(mlistviewAdapter);
 
         // Send button listener
