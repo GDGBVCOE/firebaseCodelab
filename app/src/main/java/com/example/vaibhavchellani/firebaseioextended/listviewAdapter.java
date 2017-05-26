@@ -7,6 +7,7 @@ import android.support.annotation.Nullable;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.List;
@@ -29,9 +30,13 @@ public class listviewAdapter extends ArrayAdapter<Message> {
         }
         TextView messageTextView = (TextView) convertView.findViewById(R.id.userMessageTextView);
         TextView usernameTextView=(TextView) convertView.findViewById(R.id.usernameTextView);
+        ImageView mImageView=(ImageView) convertView.findViewById(R.id.messageimage);
         Message message = getItem(position);
         messageTextView.setText(message.getUserMessage());
         usernameTextView.setText(message.getUserName());
+        if(message.getImageURL()!=null){
+            mImageView.setImage
+        }
         return convertView;
     }
 }
