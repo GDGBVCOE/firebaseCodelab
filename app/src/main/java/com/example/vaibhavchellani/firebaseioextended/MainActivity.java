@@ -36,6 +36,8 @@ public class MainActivity extends AppCompatActivity {
         messages.add(newMessage);messages.add(newMessage);messages.add(newMessage);*/
 
 
+        //trial commit jasmeet
+
         mlistviewAdapter=new listviewAdapter(this,R.layout.row_layout,messages);
         messageListView.setAdapter(mlistviewAdapter);
 
