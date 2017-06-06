@@ -15,8 +15,9 @@ step 4. read messages
 
 Step 5 . remote config
 
+Step 6 : fcm
 
-STEP 6 : Send pictures (firebase storage)
+STEP 7 : Send pictures (firebase storage)
 
 
 list to be appended as work progresses
